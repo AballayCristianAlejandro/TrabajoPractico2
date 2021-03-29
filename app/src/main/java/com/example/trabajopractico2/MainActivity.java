@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < cursor.getColumnCount(); i++) {
                 Log.d(cursor.getColumnName(i) + "", cursor.getString(i) + "");
             }
-            Log.d("One row finished", "**************************************************");
+            Log.d("One row finished", "**********");
         }
 
     }
